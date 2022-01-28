@@ -1,0 +1,62 @@
+ body{
+    background-image: url("image.jpeg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container
+{
+    background-color:powderblue;
+    width:600px;
+    height:300px;
+    margin:70px auto;
+    border:solid white 5px;
+    border-radius: 10px;
+
+}
+.container p{
+
+  text-align: center;
+   
+}
+#time{
+   margin: 0 35px 0 0;
+
+}
+.list{
+
+  color:powderblue;
+
+}
+.list:hover{
+  color:rgb(121, 227, 241);
+}
+.date{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.date span{
+	color:white;
+}
+
+div p label{
+
+font-weight: 600;
+}
+
+.container p button{
+
+  font-weight: 600;
+}
+
+.container p button:hover{
+
+  background-color:black;
+  color:white;
+  font-weight: 600;

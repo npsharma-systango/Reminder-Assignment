@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Assignment1</title>
+</head>
+<body onload="askName()">
+  <div class="date"></div>
+  
+    <div class="container">
+
+      <h1 id="user" style="text-align: center;"></h1>
+ 
+    
+        <p>
+          <label>Type Here:</label>
+          <input type="text" id="input" size="50" >
+        </p>
+
+         <p>
+           <label for="time" >Time:</label>
+
+           <select name="time" id="time">
+               <option value="select">select</option>
+               <option value="4">4 sec</option>
+               <option value="6">6 sec</option>
+               <option value="8">8 sec</option>
+               <option value="10">10 sec</option>
+               <option value="12">12 sec</option>
+               <option value="14">14 sec</option>
+           </select>
+
+          <!-- <label for="date" id="date">Date:</label>
+          <input type="date"> -->
+        </p>
+        
+        <p>
+           <button  onclick="reminder()">Set</button>
+        </p>
+
+        <p>
+          <button  onclick="cancelAllReminders()"<b>Cancle All Reminder</b></button>
+       </p>
+
+    </div>
+
+    <div class="list">
+      <h2> Reminder List: </h2>
+      <ol id = "ul">
+
+      </ol>
+  </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
